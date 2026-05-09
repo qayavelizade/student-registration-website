@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги - StudentReg</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">S</span>
+                    <span class="logo-text">StudentReg</span>
+                </a>
+                
+                <button class="burger" id="burger" aria-label="Открыть меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <ul class="nav-list" id="navList">
+                    <li><a href="index.html" class="nav-link">Главная</a></li>
+                    <li><a href="about.html" class="nav-link">О нас</a></li>
+                    <li><a href="services.html" class="nav-link active">Услуги</a></li>
+                    <li><a href="contacts.html" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Заголовок страницы -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">Наши услуги</h1>
+                <p class="page-subtitle">Комплексные решения для автоматизации учебного процесса</p>
+            </div>
+        </section>
+
+        <!-- Основные услуги -->
+        <section class="services-main">
+            <div class="container">
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="8.5" cy="7" r="4"/>
+                                <line x1="20" y1="8" x2="20" y2="14"/>
+                                <line x1="23" y1="11" x2="17" y2="11"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Регистрация студентов</h3>
+                        <p class="service-desc">Автоматизированная система приема заявок и регистрации новых студентов с валидацией данных и проверкой документов</p>
+                        <ul class="service-features">
+                            <li>Онлайн-формы регистрации</li>
+                            <li>Проверка документов</li>
+                            <li>Автоматические уведомления</li>
+                            <li>Интеграция с базами данных</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14 2 14 8 20 8"/>
+                                <line x1="16" y1="13" x2="8" y2="13"/>
+                                <line x1="16" y1="17" x2="8" y2="17"/>
+                                <polyline points="10 9 9 9 8 9"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Управление документами</h3>
+                        <p class="service-desc">Централизованное хранение и управление всей документацией студентов с возможностью быстрого поиска и фильтрации</p>
+                        <ul class="service-features">
+                            <li>Электронный архив</li>
+                            <li>Шаблоны документов</li>
+                            <li>Цифровые подписи</li>
+                            <li>Контроль версий</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="18" y1="20" x2="18" y2="10"/>
+                                <line x1="12" y1="20" x2="12" y2="4"/>
+                                <line x1="6" y1="20" x2="6" y2="14"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Аналитика и отчеты</h3>
+                        <p class="service-desc">Подробная статистика и аналитические инструменты для принятия обоснованных управленческих решений</p>
+                        <ul class="service-features">
+                            <li>Интерактивные дашборды</li>
+                            <li>Экспорт в различные форматы</li>
+                            <li>Автоматические отчеты</li>
+                            <li>Прогнозная аналитика</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                <line x1="16" y1="2" x2="16" y2="6"/>
+                                <line x1="8" y1="2" x2="8" y2="6"/>
+                                <line x1="3" y1="10" x2="21" y2="10"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Планирование расписания</h3>
+                        <p class="service-desc">Удобный инструмент для составления и управления расписанием занятий с учетом всех ограничений</p>
+                        <ul class="service-features">
+                            <li>Автоматическое составление</li>
+                            <li>Учет нагрузки преподавателей</li>
+                            <li>Распределение аудиторий</li>
+                            <li>Уведомления об изменениях</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Коммуникации</h3>
+                        <p class="service-desc">Встроенная система коммуникаций для эффективного взаимодействия между студентами, преподавателями и администрацией</p>
+                        <ul class="service-features">
+                            <li>Массовые рассылки</li>
+                            <li>Личные сообщения</li>
+                            <li>Push-уведомления</li>
+                            <li>Email-интеграция</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="3"/>
+                                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Интеграции</h3>
+                        <p class="service-desc">Гибкие возможности интеграции с внешними системами и государственными порталами</p>
+                        <ul class="service-features">
+                            <li>API для интеграций</li>
+                            <li>Госуслуги</li>
+                            <li>1С и другие ERP</li>
+                            <li>LMS системы</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Тарифы -->
+        <section class="pricing">
+            <div class="container">
+                <h2 class="section-title">Тарифные планы</h2>
+                <p class="section-subtitle">Выберите оптимальный тариф для вашего учебного заведения</p>
+                
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 class="pricing-name">Базовый</h3>
+                            <div class="pricing-price">
+                                <span class="price-amount">15 000</span>
+                                <span class="price-period">руб/мес</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li class="included">До 500 студентов</li>
+                            <li class="included">Регистрация студентов</li>
+                            <li class="included">Базовая аналитика</li>
+                            <li class="included">Email-поддержка</li>
+                            <li class="not-included">Расширенные отчеты</li>
+                            <li class="not-included">API доступ</li>
+                            <li class="not-included">Персональный менеджер</li>
+                        </ul>
+                        <a href="contacts.html" class="btn btn-secondary btn-block">Выбрать</a>
+                    </div>
+                    
+                    <div class="pricing-card featured">
+                        <div class="pricing-badge">Популярный</div>
+                        <div class="pricing-header">
+                            <h3 class="pricing-name">Профессиональный</h3>
+                            <div class="pricing-price">
+                                <span class="price-amount">35 000</span>
+                                <span class="price-period">руб/мес</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li class="included">До 2000 студентов</li>
+                            <li class="included">Все функции Базового</li>
+                            <li class="included">Расширенная аналитика</li>
+                            <li class="included">Приоритетная поддержка</li>
+                            <li class="included">Расширенные отчеты</li>
+                            <li class="included">API доступ</li>
+                            <li class="not-included">Персональный менеджер</li>
+                        </ul>
+                        <a href="contacts.html" class="btn btn-primary btn-block">Выбрать</a>
+                    </div>
+                    
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 class="pricing-name">Корпоративный</h3>
+                            <div class="pricing-price">
+                                <span class="price-amount">По запросу</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li class="included">Неограниченно студентов</li>
+                            <li class="included">Все функции Профессионального</li>
+                            <li class="included">Кастомизация системы</li>
+                            <li class="included">Персональный менеджер</li>
+                            <li class="included">SLA 99.9%</li>
+                            <li class="included">Обучение персонала</li>
+                            <li class="included">On-premise установка</li>
+                        </ul>
+                        <a href="contacts.html" class="btn btn-secondary btn-block">Связаться</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Процесс работы -->
+        <section class="process">
+            <div class="container">
+                <h2 class="section-title">Как мы работаем</h2>
+                <div class="process-grid">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <h3>Консультация</h3>
+                        <p>Анализируем ваши потребности и подбираем оптимальное решение</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <h3>Настройка</h3>
+                        <p>Настраиваем систему под особенности вашего учебного заведения</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <h3>Обучение</h3>
+                        <p>Проводим обучение персонала работе с системой</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <h3>Поддержка</h3>
+                        <p>Обеспечиваем постоянную техническую поддержку</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">S</span>
+                        <span class="logo-text">StudentReg</span>
+                    </a>
+                    <p class="footer-desc">Современная система регистрации и управления данными студентов для учебных заведений любого уровня.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-title">Навигация</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-title">Контакты</h4>
+                    <ul class="footer-contacts">
+                        <li>г. Москва, ул. Примерная, 123</li>
+                        <li>+7 (495) 123-45-67</li>
+                        <li>info@studentreg.ru</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 StudentReg. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

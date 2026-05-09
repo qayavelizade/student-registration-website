@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentReg - Система регистрации студентов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">S</span>
+                    <span class="logo-text">StudentReg</span>
+                </a>
+                
+                <button class="burger" id="burger" aria-label="Открыть меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <ul class="nav-list" id="navList">
+                    <li><a href="index.html" class="nav-link active">Главная</a></li>
+                    <li><a href="about.html" class="nav-link">О нас</a></li>
+                    <li><a href="services.html" class="nav-link">Услуги</a></li>
+                    <li><a href="contacts.html" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero секция -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Современная система регистрации студентов</h1>
+                    <p class="hero-subtitle">Упростите процесс поступления и управления данными студентов с помощью нашей инновационной платформы</p>
+                    <div class="hero-buttons">
+                        <a href="services.html" class="btn btn-primary">Начать работу</a>
+                        <a href="about.html" class="btn btn-secondary">Узнать больше</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-card">
+                        <div class="card-header">
+                            <div class="card-dot"></div>
+                            <div class="card-dot"></div>
+                            <div class="card-dot"></div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-avatar"></div>
+                            <div class="card-lines">
+                                <div class="card-line"></div>
+                                <div class="card-line short"></div>
+                            </div>
+                        </div>
+                        <div class="card-stats">
+                            <div class="stat-box"></div>
+                            <div class="stat-box"></div>
+                            <div class="stat-box"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Преимущества -->
+        <section class="features">
+            <div class="container">
+                <h2 class="section-title">Наши преимущества</h2>
+                <p class="section-subtitle">Почему тысячи учебных заведений выбирают нашу систему</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Быстрая регистрация</h3>
+                        <p class="feature-text">Процесс регистрации занимает всего несколько минут благодаря интуитивному интерфейсу</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                                <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Безопасность данных</h3>
+                        <p class="feature-text">Современные методы шифрования обеспечивают полную защиту персональных данных</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Удобное управление</h3>
+                        <p class="feature-text">Централизованная система управления всеми данными студентов в одном месте</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                                <line x1="8" y1="21" x2="16" y2="21"/>
+                                <line x1="12" y1="17" x2="12" y2="21"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Кроссплатформенность</h3>
+                        <p class="feature-text">Доступ к системе с любого устройства: компьютера, планшета или смартфона</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Статистика -->
+        <section class="stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="15000">0</span>
+                        <span class="stat-label">Студентов зарегистрировано</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="250">0</span>
+                        <span class="stat-label">Учебных заведений</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="98">0</span>
+                        <span class="stat-label">% довольных клиентов</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="24">0</span>
+                        <span class="stat-label">Часа поддержки в сутки</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Призыв к действию -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">Готовы начать?</h2>
+                    <p class="cta-text">Присоединяйтесь к сотням учебных заведений, которые уже используют нашу систему</p>
+                    <a href="contacts.html" class="btn btn-primary btn-large">Связаться с нами</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">S</span>
+                        <span class="logo-text">StudentReg</span>
+                    </a>
+                    <p class="footer-desc">Современная система регистрации и управления данными студентов для учебных заведений любого уровня.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-title">Навигация</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-title">Контакты</h4>
+                    <ul class="footer-contacts">
+                        <li>г. Москва, ул. Примерная, 123</li>
+                        <li>+7 (495) 123-45-67</li>
+                        <li>info@studentreg.ru</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 StudentReg. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
